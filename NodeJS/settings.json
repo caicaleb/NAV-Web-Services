@@ -1,0 +1,6 @@
+{
+  "username": "user",
+  "password": "pass",
+  "domain": "domain",
+  "serviceURL": "http://localhost:port/NAVServerInstance/WS/Company/Codeunit/WebServiceName"
+}
