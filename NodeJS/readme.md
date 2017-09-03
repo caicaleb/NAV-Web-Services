@@ -1,13 +1,10 @@
-# pre-requisites
-
-## Node Modules
+# Node Modules
 npm install soap-ntlm
 npm install httpntlm
 
-## NAV Codeunit Published as a Web Service
-HelloWorld() OutPut : Text
-
-EXIT('Hello World');
+# NAV Codeunit Published as a Web Service
+>HelloWorld() OutPut : Text
+>EXIT('Hello World');
 
 GetCustomerName(No : Text) : Text
 
