@@ -25,8 +25,8 @@ IF Customer.FINDFIRST THEN
 
 ### XML Port: XMLCustomer
 Node Name	Prefix	Node Type	Source Type	Data Source
-Root		        Element	    Text	    <Root>
-Customer		    Element	    Table	    <Customer>(Customer)
-No		            Element	    Field	    Customer::No.
-Name		        Element	    Field	    Customer::Name
-Balance		        Element	    Field	    Customer::Balance (LCY)  
+Root		        Element	    Text	      <Root>
+Customer		    Element	    Table	      <Customer>(Customer)
+No		          Element	    Field	      Customer::No.
+Name		        Element	    Field	      Customer::Name
+Balance		      Element	    Field	      Customer::Balance (LCY) 
