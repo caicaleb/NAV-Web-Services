@@ -1,7 +1,0 @@
-C:\GitHub\NAV-Web-Services\DotNetUsingHttpWebRequest\DotNetUsingHttpWebRequest\bin\Debug\DotNetUsingHttpWebRequest.exe.config
-C:\GitHub\NAV-Web-Services\DotNetUsingHttpWebRequest\DotNetUsingHttpWebRequest\bin\Debug\DotNetUsingHttpWebRequest.exe
-C:\GitHub\NAV-Web-Services\DotNetUsingHttpWebRequest\DotNetUsingHttpWebRequest\bin\Debug\DotNetUsingHttpWebRequest.pdb
-C:\GitHub\NAV-Web-Services\DotNetUsingHttpWebRequest\DotNetUsingHttpWebRequest\obj\Debug\DotNetUsingHttpWebRequest.csprojAssemblyReference.cache
-C:\GitHub\NAV-Web-Services\DotNetUsingHttpWebRequest\DotNetUsingHttpWebRequest\obj\Debug\DotNetUsingHttpWebRequest.csproj.CoreCompileInputs.cache
-C:\GitHub\NAV-Web-Services\DotNetUsingHttpWebRequest\DotNetUsingHttpWebRequest\obj\Debug\DotNetUsingHttpWebRequest.exe
-C:\GitHub\NAV-Web-Services\DotNetUsingHttpWebRequest\DotNetUsingHttpWebRequest\obj\Debug\DotNetUsingHttpWebRequest.pdb
