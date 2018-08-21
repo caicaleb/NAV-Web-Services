@@ -1,0 +1,14 @@
+﻿<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tes="urn:microsoft-dynamics-schemas/codeunit/TestService" xmlns:x50="urn:microsoft-dynamics-nav/xmlports/x50000">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tes:GetCustomers>
+         <tes:xMLCustomer>
+            <x50:Customer>
+               <x50:No></x50:No>
+               <x50:Name></x50:Name>
+               <x50:Balance></x50:Balance>
+            </x50:Customer>
+         </tes:xMLCustomer>
+      </tes:GetCustomers>
+   </soapenv:Body>
+</soapenv:Envelope>

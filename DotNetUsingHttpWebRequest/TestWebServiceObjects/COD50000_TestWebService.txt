@@ -1,0 +1,30 @@
+OBJECT Codeunit 50000 Test Web Service
+{
+  OBJECT-PROPERTIES
+  {
+    Date=21/08/18;
+    Time=07:00:00;
+    Modified=Yes;
+    Version List=marcellusnav.wordpress.com;
+  }
+  PROPERTIES
+  {
+    OnRun=BEGIN
+          END;
+
+  }
+  CODE
+  {
+
+    PROCEDURE GetCustomers@1000000000(VAR XMLCustomer@1000000000 : XMLport 50000);
+    BEGIN
+    END;
+
+    BEGIN
+    {
+      http://marcellusnav.wordpress.com
+    }
+    END.
+  }
+}
+

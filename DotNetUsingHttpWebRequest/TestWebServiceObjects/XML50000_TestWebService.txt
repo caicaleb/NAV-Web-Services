@@ -1,0 +1,57 @@
+OBJECT XMLport 50000 XMLCustomer
+{
+  OBJECT-PROPERTIES
+  {
+    Date=21/08/18;
+    Time=07:00:00;
+    Modified=Yes;
+    Version List=marcellusnav.wordpress.com;
+  }
+  PROPERTIES
+  {
+    UseDefaultNamespace=Yes;
+  }
+  ELEMENTS
+  {
+    { [{3D71AF1C-42F4-43C1-8B7F-E1755E65424B}];  ;Customers           ;Element ;Text     }
+
+    { [{B3B78BC2-0E6C-4E1B-9D21-769301289044}];1 ;Customer            ;Element ;Table   ;
+                                                  SourceTable=Table18;
+                                                  MinOccurs=Zero }
+
+    { [{F43636BB-FA69-43EC-8080-C071CF017993}];2 ;No                  ;Element ;Field   ;
+                                                  DataType=Code;
+                                                  SourceField=Customer::No. }
+
+    { [{E383E78C-BAB0-42A3-A8B7-F37FEDE6CF13}];2 ;Name                ;Element ;Field   ;
+                                                  DataType=Text;
+                                                  SourceField=Customer::Name }
+
+    { [{28B38469-9312-4D08-BD86-6CFAA037CFFA}];2 ;Balance             ;Element ;Field   ;
+                                                  DataType=Decimal;
+                                                  SourceField=Customer::Balance (LCY) }
+
+  }
+  EVENTS
+  {
+  }
+  REQUESTPAGE
+  {
+    PROPERTIES
+    {
+    }
+    CONTROLS
+    {
+    }
+  }
+  CODE
+  {
+
+    BEGIN
+    {
+      http://marcellusnav.wordpress.com
+    }
+    END.
+  }
+}
+
